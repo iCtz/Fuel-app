@@ -6,7 +6,7 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.17.3 <3.0.0"
+  sdk: ">=2.17.3 <3.29.3"
 
 dependencies:
   flutter:
@@ -14,13 +14,20 @@ dependencies:
 
   http: ^0.13.4
   cupertino_icons: ^1.0.2
-  google_fonts: ^3.0.1
+#  google_fonts: ^3.0.1
+#  new packages
+  google_fonts: ^4.0.0
+#  package_info_plus: ^4.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^2.0.0
+  #  new packages
+  file: ^7.0.0
+  path_provider: ^2.1.0
+  win32: ^5.12.0
 
 
 flutter:
